@@ -1,0 +1,29 @@
+.Featuredproducts{
+
+    margin: 100px 150px  ;
+    margin-bottom: 100px;
+    
+    .top{
+display: flex;
+align-items: center;
+justify-content: center;
+justify-content: space-between;
+    h1{
+         flex: 2;
+         text-transform:capitalize;
+         
+
+    }
+
+    }
+.bottom{
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 80vw;
+    overflow: hidden;
+
+}
+
+}

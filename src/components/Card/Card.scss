@@ -1,0 +1,82 @@
+.card{
+    width: 200px;
+    display: flex;
+    gap: 0  px;
+    flex-direction: column;
+    border: 1px solid #dfdfdfcd;
+   
+    margin-bottom: 50px;
+
+    .image{
+        width: 100%;
+        
+        object-fit:cover;
+       position: relative;
+       margin-top: 20px;
+       bottom: 10px;
+      
+     &:hover{
+      transform: scale(1.1);
+      opacity: 0.8;
+
+     }
+
+    }
+    span{
+          background-color: white;
+          color: teal;
+          margin-left: 10px;
+          top: 5px;
+          
+        
+        .logo{
+
+            height: 30px;
+            width: 30px;
+            position: relative;
+            top: 10px;
+        }
+
+    }
+    h2{
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 10px;
+
+
+    }
+    .price{
+
+       
+        gap: 20px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        
+    }
+    h3{
+     font-style: 18px;
+     font-weight: 500;
+    
+
+    }
+    .oldprice{
+        color: gray;
+        text-decoration: line-through;
+    }
+    .newprice{
+        color:red;
+        font-weight: bold;
+        font-style: 20px;
+
+    }
+    .desc {
+
+      color: grey;
+      font-style: 5px;
+
+    }
+
+
+
+}

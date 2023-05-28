@@ -1,0 +1,49 @@
+.products{
+           padding: 30px 50px;
+           display: flex;
+           
+
+           .left-products{
+               flex: 1;
+               position: sticky;
+               height: 100%;
+               top:50px;
+               display: block;
+            .fitteritem{
+
+                margin-bottom: 30px;
+                    h2{
+
+                        
+                        margin-bottom: 20px;
+
+                    }
+             .inputitem{
+                
+                
+                display: flex;
+                label{
+                    margin-left: 10px;
+                }
+             }
+            }
+
+
+
+           }
+           .right-products{
+               flex:3;
+
+           }
+           .productsimg{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 50px;
+
+ }
+
+           
+
+
+}
